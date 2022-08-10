@@ -1,0 +1,105 @@
+@media all and (max-width: 1500px) {
+  .hotel-card-hdp {
+    width: 45%;
+  }
+  .hotel-card-alc {
+    width: 45%;
+  }
+  .hotel-card-hlm {
+    width: 45%;
+  }
+  .hotel-card-adlm {
+    width: 45%;
+  }
+  .hotel-card-alp {
+    width: 45%;
+  }
+  .hotel-card-hca {
+    width: 45%;
+  }
+  .most-popular-card-hlsdm-image {
+    width: 50%;
+  }
+  .most-popular-card-hlsdm-content {
+    margin: 13%;
+  }
+  .most-popular-card-acdlcd-image {
+    width: 50%;
+  }
+  .most-popular-card-acdlcd-content {
+    margin: 13%;
+  }
+  .most-popular-card-image {
+    width: 50%;
+  }
+  .most-popular-card-content {
+    margin: 13%;
+  }
+}
+
+@media all and (max-width: 1000px) {
+  #hotels {
+    display: flex;
+    flex-direction: column-reverse;
+    width: 200%;
+    margin-left: 6%;
+  }
+  .most-popular-card-hlsdm-content {
+    margin-top: 6%;
+  }
+  .most-popular-card-acdlcd-content {
+    margin-top: 3%;
+  }
+  .most-popular-card-content {
+    margin-top: 3%;
+  }
+  .hotels {
+    display: flex;
+    flex-direction: column;
+    width: 47.5rem;
+    margin-left: 0.8rem;
+    margin-top: 2rem;
+  }
+}
+
+@media all and (max-width: 790px) {
+  .hotels {
+    width: 40%;
+  }
+  #all-hotel-cards {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+  }
+  .hotel-card-alc {
+    width: 150%;
+    margin-left: 15rem;
+  }
+  .hotel-card-hdp {
+    width: 150%;
+    margin-left: 15rem;
+  }
+  .hotel-card-hlm {
+    width: 150%;
+    margin-left: 15rem;
+  }
+  .hotel-card-adlm {
+    width: 150%;
+    margin-left: 15rem;
+  }
+  .hotel-card-alp {
+    width: 150%;
+    margin-left: 15rem;
+  }
+  .hotel-card-hca {
+    width: 150%;
+    margin-left: 15rem;
+  }
+}
+@media all and (max-width: 550px) {
+  .footerColumnGroup {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+}
