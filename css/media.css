@@ -89,6 +89,9 @@
   .ActivityCardGroupImgFive {
     height: 8rem;
   }
+  .searchIcon {
+    display: none;
+  }
 }
 @media all and (min-width: 414px) {
   .searchIcon {
