@@ -5,15 +5,6 @@
     width: 200%;
     margin-left: 6%;
   }
-  .most-popular-card-hlsdm-content {
-    margin-top: 6%;
-  }
-  .most-popular-card-acdlcd-content {
-    margin-top: 3%;
-  }
-  .most-popular-card-content {
-    margin-top: 3%;
-  }
   .hotels {
     display: flex;
     flex-direction: column;
