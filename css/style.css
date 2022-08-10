@@ -16,6 +16,10 @@ a {
   display: flex;
   margin-top: 1rem;
   flex-wrap: wrap;
+  flex-direction: row;
+}
+.searchFiltersSmallGroup {
+  display: flex;
 }
 .searchFiltersTitle {
   margin: 1rem 2rem 1rem 0;
