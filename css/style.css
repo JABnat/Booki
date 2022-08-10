@@ -305,7 +305,7 @@ a {
 .hotelsResultsCardFigureCaption {
   display: block;
   text-align: left;
-  padding-left: 0.5rem;
+  padding: 0.55rem;
 }
 .container {
   display: flex;
@@ -325,7 +325,7 @@ a {
   padding-bottom: 3%;
 }
 .hotelsTopCardFigureCaptionTitle {
-  margin-top: 0;
+  margin: 0;
 }
 .hotelsResultsCard {
   background-color: white;
@@ -403,7 +403,8 @@ a {
   margin-bottom: 0.03rem;
 }
 .hotelsTopCardPrice {
-  padding-bottom: 10%;
+  padding-top: 5%;
+  padding-bottom: 16%;
 }
 
 .hotelsResultsMore {
