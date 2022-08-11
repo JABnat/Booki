@@ -27,7 +27,7 @@ a {
   align-items: center;
 }
 .searchIcon {
-  display: none;
+  display: none !important;
 }
 .searchFiltersGroup {
   display: flex;
