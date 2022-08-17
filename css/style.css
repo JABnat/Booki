@@ -348,6 +348,10 @@ a {
   width: 30%;
 }
 
+.hotelsResultsCard:hover {
+  transform: scale(1.01);
+}
+
 .hotelsResultsCardFigure {
   margin: 0;
 }
