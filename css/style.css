@@ -378,6 +378,11 @@ a {
   width: 90%;
   height: 12rem;
 }
+
+.hotelsTopCard:hover {
+  transform: scale(1.01);
+}
+
 .hotelsTopGroupContentimgImage {
   border-radius: 1rem 0 0 1rem;
   object-fit: cover;
