@@ -44,6 +44,10 @@ a {
   padding: 0.3rem;
 }
 
+.searchFiltersGroup:hover {
+  transform: scale(1.01);
+}
+
 .searchFiltersGroupIconBubble {
   background-color: #deebff;
   border-radius: 100%;
