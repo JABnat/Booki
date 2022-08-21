@@ -16,7 +16,7 @@
   </head>
   <body>
     <!-- HEADER -->
-    <header class="header">
+    <header class="header" id="header">
       <img
         class="header-logo"
         src="images/logo/booki_logo.svg"
@@ -36,17 +36,14 @@
     <!-- MAIN BODY -->
     <main class="main">
       <!-- SEARCH -->
-      <section class="search">
+      <section class="search" id="search">
         <header class="Search-header">
           <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
           <h3>En plein centre de ville ou en pleine nature</h3>
         </header>
         <form class="search-form" action="____" method="GET">
           <span class="search-form-group-icon">
-            <i
-              class="fas fa-map-marker-alt search-form-group-icon"
-              style="font-size: 1.5rem"
-            ></i>
+            <i class="fas fa-map-marker-alt search-form-group-icon"></i>
           </span>
           <input
             class="search-form-group-input-input"
@@ -55,12 +52,10 @@
             size="2"
           />
           <button class="search-form-group-input">
-            <span
-              class="search-form-group-input-content"
-              style="font-size: 1.5rem"
-              style="width: 11rem"
-              >Rechercher</span
-            ><i class="fas fa-search searchIcon"></i>
+            <span class="search-form-group-input-content">Rechercher</span>
+            <div class="SearchIcon-hide">
+              <i class="fas fa-search searchIcon"></i>
+            </div>
           </button>
         </form>
         <div class="searchFilters">
@@ -70,35 +65,25 @@
               <div class="searchFiltersGroupIconBubble">
                 <i
                   class="fas fa-money-bill-wave searchFiltersGroupIconBubbleIcon"
-                  style="font-size: 1.5rem"
                 ></i>
               </div>
               <span class="searchFiltersGroupTitle">Économique</span>
             </div>
             <div class="searchFiltersGroup">
               <div class="searchFiltersGroupIconBubble">
-                <i
-                  class="fas fa-child searchFiltersGroupIconBubbleIcon"
-                  style="font-size: 1.5rem"
-                ></i>
+                <i class="fas fa-child searchFiltersGroupIconBubbleIcon"></i>
               </div>
               <span class="searchFiltersGroupTitle">Familial</span>
             </div>
             <div class="searchFiltersGroup">
               <div class="searchFiltersGroupIconBubble">
-                <i
-                  class="fas fa-heart searchFiltersGroupIconBubbleIcon"
-                  style="font-size: 1.5rem"
-                ></i>
+                <i class="fas fa-heart searchFiltersGroupIconBubbleIcon"></i>
               </div>
               <span class="searchFiltersGroupTitle">Romantique</span>
             </div>
             <div class="searchFiltersGroup">
               <div class="searchFiltersGroupIconBubble">
-                <i
-                  class="fas fa-dog searchFiltersGroupIconBubbleIcon"
-                  style="font-size: 1.5rem"
-                ></i>
+                <i class="fas fa-dog searchFiltersGroupIconBubbleIcon"></i>
               </div>
               <span class="searchFiltersGroupTitle">Animaux Authorisés</span>
             </div>
@@ -106,10 +91,7 @@
         </div>
         <div class="searchResults">
           <div class="searchResultsIconBubble">
-            <i
-              class="fas fa-info searchResultsIconBubbleIcon"
-              style="font-size: 1rem"
-            ></i>
+            <i class="fas fa-info searchResultsIconBubbleIcon"></i>
           </div>
           <p class="searchResultsText">
             Plus de 500 logements sont disponibles dans cette ville
@@ -117,6 +99,7 @@
         </div>
       </section>
       <!-- /SEARCH -->
+
       <!-- HOTELS -->
       <section class="hotels" id="hotels">
         <div class="hotelsResults">
@@ -388,7 +371,7 @@
           <div class="containers">
             <article class="hotelsTopCard">
               <a class="hotelsTopGroupContent" href="#">
-                <div class="hotelsTopGroupContentimg">
+                <div class="hotelsTopGroupContentGroupimg">
                   <img
                     class="hotelsTopGroupContentimgImage"
                     src="./images/Hotels/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg"
@@ -514,10 +497,12 @@
             </article>
           </div>
         </aside>
+        <!-- MOST POPULAR -->
       </section>
-      <!-- MOST POPULAR -->
+      <!-- /HOTELS -->
+
       <!-- ACTIVITIES -->
-      <section id="Activities">
+      <section class="Activities" id="Activities">
         <h2 class="ActivityTitle">Activités à Marseille</h2>
         <div class="Activity">
           <a href="#" class="ActivityCardOne">
@@ -585,8 +570,9 @@
       <!-- /ACTIVITIES -->
     </main>
     <!-- /MAIN BODY -->
+
     <!-- FOOTER -->
-    <footer class="footer">
+    <footer class="footer" id="footer">
       <div class="footerColumnGroup">
         <div class="footerColumnGroupStack">
           <h3 class="footerColumnGroupStackTitle">A propos</h3>

@@ -33,22 +33,12 @@
   .body {
     width: 768px;
   }
-  .hotelsTop {
-    width: 768px;
-    padding: 0 2% 2% 2%;
-    margin: 0 6% 6% 25%;
-  }
   #hotels {
     width: 100%;
     padding: 0;
     margin: 0;
     flex-direction: column-reverse;
     align-items: center;
-  }
-  .body {
-    margin: 0;
-    padding: 0;
-    width: 53rem;
   }
   .hotelsTopTitle {
     padding: Orem 1rem 1rem 3rem;
@@ -72,7 +62,9 @@
     flex-wrap: wrap;
     gap: 2rem;
     justify-content: center;
-    padding: 0 2rem 3rem 2rem;
+  }
+  .containers {
+    width: 99%;
   }
   .header {
     width: 53rem;
@@ -110,11 +102,15 @@
   .ActivityCardGroupImgFive {
     height: 8rem;
   }
-  .searchIcon {
-    display: none;
+  .SearchIcon-hide {
+    display: block;
+  }
+  .footer {
+    width: 768px;
+    margin: 0%;
   }
 }
-@media all and (max-width: 375px) {
+@media all and (max-width: 400px) {
   .main {
     width: 375px;
   }
@@ -166,8 +162,10 @@
   .search-form-group-input-input {
     width: 250px;
   }
-  .searchIcon {
-    font-weight: 900 !important;
+  .SearchIcon-hide {
+     {
+      font-weight: 900;
+    }
   }
   .searchFilters {
     flex-wrap: wrap;
