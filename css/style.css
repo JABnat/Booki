@@ -34,7 +34,7 @@ a {
   display: none;
 }
 .searchIcon {
-  font-size: 15px;
+  font-size: 20px;
 }
 .searchFiltersGroup {
   display: flex;
@@ -160,9 +160,10 @@ a {
 }
 .search-form-group-icon {
   background-color: #f2f2f2;
-  padding: 3% 4%;
+  padding: 4% 7% 4% 7%;
   border-radius: 15px 0 0 15px;
   text-align: center;
+  font-size: 18px;
 }
 .search-form-group-input {
   padding: 0 18px;
@@ -188,6 +189,7 @@ a {
   font-weight: 600;
   font-weight: bold;
   font-family: "Raleway", "Sans serif";
+  height: 50px;
 }
 .search-form-group-input-content {
   font-size: 17px;
@@ -301,6 +303,9 @@ a {
   height: 183px;
   gap: 10%;
 }
+.hotelsTopCardRating {
+  padding-bottom: 2%;
+}
 .hotelsTopCard:hover {
   transform: scale(1.01);
 }
@@ -314,9 +319,12 @@ a {
   width: 100%;
 }
 .hotelsTopGroupContentText {
-  display: block;
+  display: flex;
   padding: 1% 0 0 3%;
   width: 100%;
+  height: 100%;
+  flex-direction: column;
+  justify-content: space-between;
 }
 .hotelsResultsCardFigureCaptionTitle {
   font-size: large;
@@ -325,8 +333,8 @@ a {
   margin-bottom: 0.03%;
 }
 .hotelsResultsCardPrice {
-  margin-top: 0.3%;
-  margin-bottom: 0.03%;
+  margin-top: 2.3%;
+  margin-bottom: 2.3%;
 }
 .hotelsResultsCardRating {
   margin-top: 0.3%;
@@ -496,7 +504,7 @@ a {
 }
 .footerColumnGroupStackLink {
   display: block;
-  margin: 1% 0;
+  padding: 5px;
 }
 .footerColumnGroupStackLink:hover {
   text-decoration: underline;

@@ -80,6 +80,9 @@
     width: 250px;
     height: 160px;
   }
+  .hotelsResultsCard {
+    width: 40%;
+  }
   .hotelsResultsMore {
     padding: 0rem 0 3rem 3rem;
   }
@@ -110,7 +113,7 @@
   .ActivityCardGroupImgFive {
     height: 8rem;
   }
-  .SearchIcon-hide {
+  .SearchIcon {
     display: block;
   }
   .footer {
@@ -157,6 +160,12 @@
     padding: 10%;
     text-align: center;
   }
+  .header-nav-link:hover {
+    border-top: none;
+    color: #0065fc;
+    font-size: large;
+    border-bottom: 3.3px #0065fc solid;
+  }
   .search {
     align-self: center;
     padding: 0 0 0 5%;
@@ -173,7 +182,7 @@
   .search-form-group-input-input {
     width: 250px;
   }
-  .SearchIcon-hide {
+  .SearchIcon {
     font-weight: 900;
   }
   .searchFilters {
