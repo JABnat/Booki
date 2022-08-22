@@ -330,7 +330,6 @@ a {
 }
 .hotelsTopCardPrice {
   padding-top: 0;
-  padding-bottom: 16%;
 }
 .hotelsResultsMore {
   padding: 2% 0 3% 3%;
@@ -428,7 +427,7 @@ a {
 .ActivityCardGroupImgFour {
   width: 100%;
   object-fit: cover;
-  height: 160px;
+  height: 151px;
   border-radius: 15px 15px 0 0;
 }
 .ActivityCardFour:hover {
