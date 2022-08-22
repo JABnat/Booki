@@ -2,6 +2,7 @@
 
 body {
   font-family: "Raleway", "Sans serif";
+  max-width: 1665px;
 }
 
 a {
@@ -48,7 +49,7 @@ a {
   font-weight: bold;
   flex-direction: row;
   margin-top: 2%;
-  padding: 0.3%;
+  padding: 0.25%;
 }
 .searchFiltersGroup:hover {
   transform: scale(1.01);
@@ -114,6 +115,7 @@ a {
   display: flex;
   width: 100%;
   justify-content: space-between;
+  max-width: 1665px;
 }
 .header-logo {
   padding: 2%;
@@ -218,6 +220,8 @@ a {
   flex-direction: row;
   padding: 2%;
   gap: 2%;
+  width: 95%;
+  max-width: 1665px;
 }
 .hotelsResults {
   display: flex;
@@ -362,6 +366,9 @@ a {
   gap: 48px;
   margin: 2.12%;
   padding: 0 0 3% 0;
+  background-position: center;
+  max-width: 1665px;
+  width: 92%;
 }
 .ActivityTitle {
   margin-left: 2%;
@@ -471,6 +478,7 @@ a {
   background-color: #f2f2f2;
   width: 100%;
   align-content: center;
+  max-width: 1665px;
 }
 .footer a {
   color: grey;
