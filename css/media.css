@@ -163,9 +163,7 @@
     width: 250px;
   }
   .SearchIcon-hide {
-     {
-      font-weight: 900;
-    }
+    font-weight: 900;
   }
   .searchFilters {
     flex-wrap: wrap;
