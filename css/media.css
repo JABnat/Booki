@@ -2,6 +2,9 @@
   .body {
     width: 992px;
   }
+  .header {
+    width: 100%;
+  }
   .hotels {
     width: 990px;
   }
@@ -26,7 +29,8 @@
     width: 900px;
   }
   .footer {
-    width: 992px;
+    background: cover;
+    width: 100%;
   }
 }
 @media all and (max-width: 768px) {
@@ -44,30 +48,33 @@
     padding: Orem 1rem 1rem 3rem;
   }
   .hotelsTop {
-    width: 768px;
+    width: 100%;
     padding: 0 2% 2% 2%;
-    margin: 0 6% 6% 25%;
+    margin: 0 6% 6% 15%;
   }
   .hotelsResults {
-    width: 768px;
+    width: 100%;
     padding: 0 2% 2% 2%;
-    margin: 0 6% 6% 25%;
+    margin: 0 6% 6% 15%;
   }
   .searchResults {
     margin: 1rem 0 2rem 0;
+  }
+  .search-form-group-input-content {
+    display: none;
   }
   .container {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     gap: 2rem;
-    justify-content: center;
+    justify-content: space-evenly;
   }
   .containers {
     width: 99%;
   }
   .header {
-    width: 53rem;
+    width: 100%;
   }
   .hotelsTopGroupContentimgImage {
     width: 250px;
@@ -77,9 +84,10 @@
     padding: 0rem 0 3rem 3rem;
   }
   .Activity {
-    width: 768px;
+    width: 100%;
     gap: 30px;
-    margin: 0 0 6% 6%;
+    margin: 0 0 6% 2%;
+    background-position: center;
   }
   .ActivityTitle {
     margin: 6% 0 4% 6%;
@@ -106,16 +114,20 @@
     display: block;
   }
   .footer {
-    width: 768px;
+    width: 100%;
     margin: 0%;
+    background-position: cover;
   }
 }
-@media all and (max-width: 400px) {
+@media all and (max-width: 576px) {
   .main {
-    width: 375px;
+    width: 400px;
+  }
+  .body {
+    width: 400px;
   }
   .header {
-    width: 375px;
+    width: 100%;
     display: flex;
     flex-direction: column;
   }
@@ -126,13 +138,12 @@
     padding: 5% 0 0 0;
   }
   .header-nav {
-    width: 375px;
+    width: 100%;
     display: flex;
     flex-direction: row;
     align-self: center;
     font-size: large;
-    height: 90px;
-    padding: 0 0 0 15%;
+    padding: 0;
   }
   .header-nav-link {
     text-align: center;
@@ -166,11 +177,14 @@
     font-weight: 900;
   }
   .searchFilters {
+    flex-direction: column;
     flex-wrap: wrap;
-    width: 400px;
+    width: 100%;
   }
   .searchFiltersSmallGroup {
     flex-wrap: wrap;
+    width: 400px;
+    margin-bottom: 5%;
   }
   .header-nav-link {
     border-top: none;
@@ -178,12 +192,13 @@
     width: 50%;
   }
   .hotelsTop {
-    width: 375px;
-    margin: 0 6% 6% 10%;
+    width: 100%;
+    margin: 0 0 6% 0;
+    border-radius: 0;
   }
   .hotelsResults {
     background: none;
-    width: 375px;
+    width: 100%;
     margin: 0;
   }
   .hotelsResultsHeaderTitle {
@@ -191,6 +206,9 @@
   }
   .hotelsTopGroupContentimgImage {
     width: 150px;
+  }
+  .hotelsResultsMore {
+    padding: 5% 0 3% 3%;
   }
   .hotelsTopCard {
     height: 176px;
@@ -206,7 +224,8 @@
   .Activity {
     display: flex;
     flex-direction: column;
-    width: 100%;
+    width: 98%;
+    margin: 0 0 5% 2%;
   }
   .ActivityTitle {
     margin: 6% 0 8% 6%;
@@ -219,8 +238,11 @@
   .ActivityCardGroupImgOne {
     height: 150px;
   }
+  .footer {
+    max-width: 400px;
+  }
   .footerColumnGroup {
     flex-direction: column;
-    padding: 0%;
+    padding: 0 0 12% 5%;
   }
 }

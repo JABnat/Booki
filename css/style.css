@@ -22,6 +22,7 @@ a {
 .searchFiltersSmallGroup {
   display: flex;
   flex: 1;
+  flex-wrap: wrap;
 }
 .searchFiltersTitle {
   margin: 1% 2% 1% 0;
@@ -30,6 +31,9 @@ a {
 }
 .SearchIcon-hide {
   display: none;
+}
+.searchIcon {
+  font-size: 15px;
 }
 .searchFiltersGroup {
   display: flex;
@@ -159,7 +163,7 @@ a {
   text-align: center;
 }
 .search-form-group-input {
-  padding: 0 30px;
+  padding: 0 18px;
   font-family: "Raleway", "Sans serif";
   font-size: 1.5%;
   font-weight: 500;
@@ -480,7 +484,7 @@ a {
   box-sizing: border-box;
 }
 .footerColumnGroupStack {
-  width: 30%;
+  width: 100%;
   padding: 2% 2%;
 }
 .footerColumnGroupStackLink {
