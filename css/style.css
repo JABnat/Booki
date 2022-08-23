@@ -3,13 +3,14 @@
 body {
   font-family: "Raleway", "Sans serif";
   max-width: 1665px;
+  margin: 0 auto;
 }
 
 a {
   color: inherit;
   text-decoration: none;
 }
-/* FILTERS & Icons*/
+/* FILTERS & ICONS*/
 .search {
   display: block;
   margin: 2% 2% 0 2%;
@@ -29,12 +30,6 @@ a {
   margin: 1% 2% 1% 0;
   display: flex;
   align-items: center;
-}
-.SearchIcon-hide {
-  display: none;
-}
-.searchIcon {
-  font-size: 20px;
 }
 .searchFiltersGroup {
   display: flex;
@@ -71,7 +66,7 @@ a {
   font-weight: bold;
 }
 .searchFiltersGroupIconBubbleIcon {
-  color: blue;
+  color: #0065fc;
 }
 .searchFiltersGroupTitle {
   margin: 0 20px;
@@ -81,7 +76,7 @@ a {
 .searchResults {
   display: flex;
   align-items: center;
-  margin: 1% 0 0 0;
+  margin: 1% 0 1% 0;
 }
 .searchResultsIconBubble {
   height: 2px;
@@ -143,9 +138,9 @@ a {
   font-size: large;
   border-top: 0.3rem #0065fc solid;
 }
+/* HEADER */
 
 /* SEARCH */
-
 .search {
   margin: 2% 2% 0 2%;
 }
@@ -189,9 +184,9 @@ a {
   font-weight: 600;
   font-weight: bold;
   font-family: "Raleway", "Sans serif";
-  height: 50px;
 }
 .search-form-group-input-content {
+  display: block;
   font-size: 17px;
   font-weight: 500;
 }
@@ -213,17 +208,13 @@ a {
   display: flex;
   align-items: center;
 }
-
 /* SEARCH */
 
 /* HOTELS */
 .hotels {
   display: flex;
   flex-direction: row;
-  padding: 2%;
   gap: 2%;
-  width: 95%;
-  max-width: 1665px;
 }
 .hotelsResults {
   display: flex;
@@ -275,6 +266,9 @@ a {
 .hotelsResultsCardFigure {
   margin: 0;
 }
+/* HOTELS */
+
+/* MOST POPULAR */
 .hotelsTop {
   background-color: #f2f2f2;
   padding: 0.5%;
@@ -321,7 +315,7 @@ a {
 .hotelsTopGroupContentText {
   display: flex;
   padding: 1% 0 0 3%;
-  width: 100%;
+  width: 158%;
   height: 100%;
   flex-direction: column;
   justify-content: space-between;
@@ -371,11 +365,11 @@ a {
   display: grid;
   grid-template-columns: 23% 23% 23% 23%;
   grid-template-rows: 50px 50px 15px 15px 15px 50px 50px;
-  gap: 48px;
+  column-gap: 48px;
+  row-gap: 48px;
   margin: 2.12%;
   padding: 0 0 3% 0;
   background-position: center;
-  max-width: 1665px;
   width: 92%;
 }
 .ActivityTitle {
@@ -481,12 +475,10 @@ a {
 /* ACTIVITIES */
 
 /* FOOTER */
-
 .footer {
   background-color: #f2f2f2;
   width: 100%;
   align-content: center;
-  max-width: 1665px;
 }
 .footer a {
   color: grey;
@@ -508,6 +500,6 @@ a {
 }
 .footerColumnGroupStackLink:hover {
   text-decoration: underline;
-  color: darkblue;
+  color: #0065fc;
 }
 /* FOOTER */

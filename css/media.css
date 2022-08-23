@@ -1,18 +1,17 @@
-@media all and (max-width: 992px) {
+@media all and (min-width: 992px) {
   .body {
-    width: 992px;
+    margin: 0 auto;
   }
-  .header {
-    width: 100%;
+  .searchIcon {
+    display: none;
   }
   .hotels {
-    width: 990px;
+    padding: 2%;
   }
   .hotelsTopGroupContentimgImage {
     border-radius: 15px 0 0 15px;
     object-fit: cover;
-    height: 177px;
-    width: 110px;
+    height: 164px;
   }
   .hotelsTopGroupContentText {
     padding-left: 4%;
@@ -22,43 +21,40 @@
     padding-bottom: 1%;
   }
   .hotelsResultsMore {
-    padding: 5% 0 3% 6%;
+    padding: 2% 0 3% 6%;
     font-size: large;
-  }
-  .Activity {
-    width: 900px;
   }
   .footer {
     background: cover;
-    width: 100%;
   }
 }
-@media all and (max-width: 768px) {
+@media all and (min-width: 768px) and (max-width: 992px) {
   .body {
-    width: 768px;
+    margin: 0 auto;
   }
-  #hotels {
-    width: 100%;
-    padding: 0;
-    margin: 0;
+  .hotels {
     flex-direction: column-reverse;
     align-items: center;
+    padding: 2%;
   }
   .hotelsTopTitle {
     padding: Orem 1rem 1rem 3rem;
   }
   .hotelsTop {
-    width: 100%;
     padding: 0 2% 2% 2%;
-    margin: 0 6% 6% 15%;
+    width: auto;
   }
   .hotelsResults {
-    width: 100%;
     padding: 0 2% 2% 2%;
-    margin: 0 6% 6% 15%;
+    width: auto;
+    background-color: transparent;
   }
   .searchResults {
     margin: 1rem 0 2rem 0;
+  }
+  .search-form-group-input .fas {
+    display: block;
+    font-size: 20px;
   }
   .search-form-group-input-content {
     display: none;
@@ -70,16 +66,6 @@
     gap: 2rem;
     justify-content: space-evenly;
   }
-  .containers {
-    width: 99%;
-  }
-  .header {
-    width: 100%;
-  }
-  .hotelsTopGroupContentimgImage {
-    width: 250px;
-    height: 160px;
-  }
   .hotelsResultsCard {
     width: 40%;
   }
@@ -87,7 +73,6 @@
     padding: 0rem 0 3rem 3rem;
   }
   .Activity {
-    width: 100%;
     gap: 30px;
     margin: 0 0 6% 2%;
     background-position: center;
@@ -113,24 +98,16 @@
   .ActivityCardGroupImgFive {
     height: 8rem;
   }
-  .SearchIcon {
-    display: block;
-  }
   .footer {
-    width: 100%;
     margin: 0%;
     background-position: cover;
   }
 }
-@media all and (max-width: 576px) {
-  .main {
-    width: 400px;
-  }
+@media all and (max-width: 768px) {
   .body {
-    width: 400px;
+    margin: 0 auto;
   }
   .header {
-    width: 100%;
     display: flex;
     flex-direction: column;
   }
@@ -141,23 +118,19 @@
     padding: 5% 0 0 0;
   }
   .header-nav {
-    width: 100%;
     display: flex;
-    flex-direction: row;
-    align-self: center;
     font-size: large;
-    padding: 0;
   }
   .header-nav-link {
     text-align: center;
   }
   .header-nav-link[data-active="true"] {
-    padding: 10%;
+    padding-bottom: 1%;
     text-align: center;
     border-bottom: 3px solid #0065fc;
   }
   .header-nav-link[data-active="false"] {
-    padding: 10%;
+    padding-bottom: 1%;
     text-align: center;
   }
   .header-nav-link:hover {
@@ -170,29 +143,25 @@
     align-self: center;
     padding: 0 0 0 5%;
   }
+  .searchResults {
+    padding-bottom: 5%;
+  }
   .search-form {
     padding-bottom: 10%;
   }
+  .search-form-group-input .fas {
+    display: block;
+    font-size: 20px;
+  }
   .search-form-group-input-content {
-    display: none !important;
-  }
-  .search-form-group-input {
-    border-radius: 15px;
-  }
-  .search-form-group-input-input {
-    width: 250px;
-  }
-  .SearchIcon {
-    font-weight: 900;
+    display: none;
   }
   .searchFilters {
     flex-direction: column;
     flex-wrap: wrap;
-    width: 100%;
   }
   .searchFiltersSmallGroup {
     flex-wrap: wrap;
-    width: 400px;
     margin-bottom: 5%;
   }
   .header-nav-link {
@@ -200,21 +169,26 @@
     border-bottom: 3px solid #f2f2f2;
     width: 50%;
   }
+  .hotels {
+    flex-direction: column-reverse;
+    margin: 0 auto;
+  }
   .hotelsTop {
-    width: 100%;
     margin: 0 0 6% 0;
     border-radius: 0;
+    width: auto;
   }
   .hotelsResults {
     background: none;
-    width: 100%;
     margin: 0;
+    width: auto;
+  }
+  .hotelsResultsCard {
+    width: auto;
+    height: 265px;
   }
   .hotelsResultsHeaderTitle {
     padding: 2% 0 1% 10%;
-  }
-  .hotelsTopGroupContentimgImage {
-    width: 150px;
   }
   .hotelsResultsMore {
     padding: 5% 0 3% 3%;
@@ -222,19 +196,15 @@
   .hotelsTopCard {
     height: 176px;
   }
-  .hotelsResultsCard {
-    width: 100%;
-  }
   .container {
     flex-direction: column;
-    width: 100%;
     gap: 20px;
   }
   .Activity {
     display: flex;
     flex-direction: column;
-    width: 98%;
-    margin: 0 0 5% 2%;
+    margin: 0 auto;
+    padding-bottom: 12%;
   }
   .ActivityTitle {
     margin: 6% 0 8% 6%;
@@ -247,8 +217,8 @@
   .ActivityCardGroupImgOne {
     height: 150px;
   }
-  .footer {
-    max-width: 400px;
+  .ActivityCardTitle {
+    margin: 2% 0 2% 5%;
   }
   .footerColumnGroup {
     flex-direction: column;
