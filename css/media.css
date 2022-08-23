@@ -2,7 +2,11 @@
   .body {
     margin: 0 auto;
   }
-  .searchIcon {
+  .search-form-group-input-content {
+    display: block;
+    font-size: 20px;
+  }
+  .search-form-group-input .fas {
     display: none;
   }
   .hotels {

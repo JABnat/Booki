@@ -365,7 +365,7 @@ a {
   display: grid;
   grid-template-columns: 23% 23% 23% 23%;
   grid-template-rows: 50px 50px 15px 15px 15px 50px 50px;
-  column-gap: 48px;
+  column-gap: 37px;
   row-gap: 48px;
   margin: 2.12%;
   padding: 0 0 3% 0;
