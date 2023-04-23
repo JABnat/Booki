@@ -14,3 +14,15 @@ The intended lessons were :
  3) Learning about importing (fonts, libraries, etc.)
  4) Devoloping the knowledge of creating simple animations via CSS (ex: enlarging the text of a link when hover the cursor over the text)
  5) Practicing detail orientation in order to follow the mock-up as closely as possible
+
+
+# PREVIEW
+
+FLEXBOX
+<img width="1121" alt="Screenshot 2023-04-23 at 12 46 07" src="https://user-images.githubusercontent.com/109919004/233835390-e4a4a4b5-b08c-447a-a9f9-54f0a8e01b34.png">
+
+GRID
+<img width="1088" alt="Screenshot 2023-04-23 at 12 46 19" src="https://user-images.githubusercontent.com/109919004/233835376-a8d762b5-c2a1-4fd7-8235-f3f597160f68.png">
+
+# TAKE A LOOK
+https://jabnat.github.io/Booki/
