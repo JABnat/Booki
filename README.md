@@ -13,3 +13,4 @@ The intended lessons were :
  2) Understanding the connection between HTML and CSS 
  3) Learning about importing (fonts, libraries, etc.)
  4) Devoloping the knowledge of creating simple animations via CSS (ex: enlarging the text of a link when hover the cursor over the text)
+ 5) Practicing detail orientation in order to follow the mock-up as closely as possible
