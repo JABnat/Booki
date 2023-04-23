@@ -1,6 +1,6 @@
 # Booki : Project #1 of OpenClassrooms
-# TAKE A LOOK
-https://jabnat.github.io/Booki/
+
+Take a look : https://jabnat.github.io/Booki/
 
 <img width="778" alt="Screenshot 2023-04-23 at 12 26 50" src="https://user-images.githubusercontent.com/109919004/233834379-d5ea4e3f-9420-42e5-9e61-d2058835db1c.png">
 
